@@ -1,0 +1,21 @@
+[
+  {
+    "account": "account0",
+    "password": "12340",
+    "name": "全名0",
+    "username": "帳號名稱0",
+    "email": "account0@gmail.com",
+    "image": "https://www.google.com.tw/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "isAllowedNotifications": true,
+    "isSubscribed": true,
+    "customedUrl": "https://www.google.com.tw",
+    "gender": -2,
+    "birthday": "1990/8/8",
+    "address": "account1_address_0",
+    "website": "account1_web_0",
+    "facebook": "fb_account1_url_0",
+    "instagram": "ig_account1_url_0",
+    "youtube": "yt_account1_url_0",
+    "tokenList": ""
+  }
+]

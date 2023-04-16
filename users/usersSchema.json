@@ -1,0 +1,72 @@
+{
+  "$jsonSchema": {
+    "required": ["account", "password", "name", "username", "email"],
+    "properties": {
+      "account": {
+        "bsonType": "string",
+        "description": "required, should be string"
+      },
+      "password": {
+        "bsonType": "string",
+        "description": "required, should be string"
+      },
+      "name": {
+        "bsonType": "string",
+        "description": "required, should be string"
+      },
+      "username": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "email": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "image": {
+        "bsonType": ["string", "null"],
+        "description": "should be string"
+      },
+      "isAllowedNotifications": {
+        "bsonType": "bool",
+        "description": "should be boolean"
+      },
+      "isSubscribed": {
+        "bsonType": "bool",
+        "description": "should be boolean"
+      },
+      "customedUrl": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "gender": {
+        "bsonType": "number",
+        "enum": [-1, 0, 1, 2, 3, 4],
+        "description": "can only be either -1, 0, 1, 2, 3, 4"
+      },
+      "birthday": {
+        "bsonType": ["number", "null"],
+        "description": "should be number or null"
+      },
+      "address": {
+        "bsonType": ["string", "null"],
+        "description": "should be string or null"
+      },
+      "website": {
+        "bsonType": ["string", "null"],
+        "description": "should be string or null"
+      },
+      "facebook": {
+        "bsonType": ["string", "null"],
+        "description": "should be string or null"
+      },
+      "instagram": {
+        "bsonType": ["string", "null"],
+        "description": "should be string or null"
+      },
+      "youtube": {
+        "bsonType": ["string", "null"],
+        "description": "should be string or null"
+      }
+    }
+  }
+}
