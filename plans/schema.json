@@ -1,0 +1,71 @@
+{
+  "$jsonSchema": {
+    "required": [
+      "name",
+      "originPrice",
+      "image",
+      "summarty",
+      "specification",
+      "createTime",
+      "updateTime"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string",
+        "description": "name should be string"
+      },
+      "originalPrice": {
+        "bsonType": "number",
+        "description": "originalPrice is required, should be number"
+      },
+      "actualPrice": {
+        "bsonType": ["number", "null"],
+        "description": "actualPrice should be number or null"
+      },
+      "quantity": {
+        "bsonType": ["number", "null"],
+        "description": "quantity should be number or null"
+      },
+      "pickupDate": {
+        "bsonType": ["number", "null"],
+        "description": "pickupDate should be number or null"
+      },
+      "image": {
+        "bsonType": "string",
+        "description": "image is required, should be string"
+      },
+      "summary": {
+        "bsonType": "string",
+        "description": "summary is required, should be string"
+      },
+      "freightMainIsland": {
+        "bsonType": ["number", "null"],
+        "description": "freightMainIsland should be number or null"
+      },
+      "freightOuterIsland": {
+        "bsonType": ["number", "null"],
+        "description": "freightOuterIsland should be number or null"
+      },
+      "freightOtherCountries": {
+        "bsonType": ["number", "null"],
+        "description": "freightOtherCountries should be number or null"
+      },
+      "toSponsor": {
+        "bsonType": "string",
+        "description": "quantity should be string"
+      },
+      "specification": {
+        "bsonType": ["array"],
+        "description": "specification should be object",
+      },
+      "createTime": {
+        "bsonType": "number",
+        "description": "createTime is required, should be number"
+      },
+      "updateTime": {
+        "bsonType": "number",
+        "description": "updateTime is required, should be number"
+      }
+    }
+  }
+}

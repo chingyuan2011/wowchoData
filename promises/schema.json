@@ -1,0 +1,27 @@
+{
+  "$jsonSchema": {
+    "required": ["createTime", "updateTime"],
+    "properties": {
+      "contact": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "risk": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "refund": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "createTime": {
+        "bsonType": "number",
+        "description": "createTime is required, should be number"
+      },
+      "updateTime": {
+        "bsonType": "number",
+        "description": "updateTime is required, should be number"
+      }
+    }
+  }
+}

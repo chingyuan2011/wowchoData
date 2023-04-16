@@ -1,10 +1,10 @@
 const fs = require("fs");
 
 const data = [];
-const fileName = 'users.json'
+const fileName = 'data.json'
 
 const dataNum = 100;
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < dataNum; i++) {
   const eachData = {
     account: `account${i}`,
     password: `1234${i}`,

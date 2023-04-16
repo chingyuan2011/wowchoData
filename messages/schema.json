@@ -1,0 +1,27 @@
+{
+  "$jsonSchema": {
+    "required": ["personId", "createTime", "updateTime"],
+    "properties": {
+      "parentId": {
+        "bsonType": ["string", "null"],
+        "description": "title is required, should be string or null"
+      },
+      "personId": {
+        "bsonType": "string",
+        "description": "personId is required, should be string"
+      },
+      "content": {
+        "bsonType": "string",
+        "description": "should be string"
+      },
+      "createTime": {
+        "bsonType": "number",
+        "description": "createTime is required, should be number"
+      },
+      "updateTime": {
+        "bsonType": "number",
+        "description": "updateTime is required, should be number"
+      }
+    }
+  }
+}

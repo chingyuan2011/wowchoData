@@ -1,0 +1,19 @@
+{
+  "$jsonSchema": {
+    "required": ["url", "createTime", "updateTime"],
+    "properties": {
+      "url": {
+        "bsonType": "string",
+        "description": "url is required, should be string"
+      },
+      "createTime": {
+        "bsonType": "number",
+        "description": "createTime is required, should be number"
+      },
+      "updateTime": {
+        "bsonType": "number",
+        "description": "updateTime is required, should be number"
+      }
+    }
+  }
+}
